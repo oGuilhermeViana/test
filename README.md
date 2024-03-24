@@ -1,6 +1,6 @@
 # test
 
-'''
+```mermaid
 classDiagram
     class User {
         <<DTO>>
@@ -42,4 +42,4 @@ classDiagram
     User --> Card
     User --> News
 
-'''
+```
