@@ -3,7 +3,6 @@
 ```mermaid
 classDiagram
     class User {
-        <<DTO>>
         -String name
         -Account account
         -List<Feature> features
@@ -12,7 +11,6 @@ classDiagram
     }
     
     class Account {
-        <<DTO>>
         -String number
         -String agency
         -float balance
@@ -20,19 +18,16 @@ classDiagram
     }
     
     class Feature {
-        <<DTO>>
         -String icon
         -String description
     }
     
     class Card {
-        <<DTO>>
         -String cardNumber
         -float cardLimit
     }
     
     class News {
-        <<DTO>>
         -String icon
         -String description
     }
